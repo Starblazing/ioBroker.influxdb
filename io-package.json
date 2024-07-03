@@ -11,9 +11,10 @@
       "it": "Registrazione degli stati in InfluxDB",
       "es": "Registro de estados en InfluxDB",
       "pl": "Logowanie stanów do InfluxDB",
+      "uk": "Збереження історії подій для окремих станів в InfluxDB",
       "zh-cn": "将状态记录到InfluxDB中"
     },
-    "version": "3.2.0",
+    "version": "4.0.3",
     "title": "Logging data with InfluxDB",
     "titleLang": {
       "en": "Logging data with InfluxDB",
@@ -25,9 +26,62 @@
       "it": "Registrazione dei dati con InfluxDB",
       "es": "Datos de registro con InfluxDB",
       "pl": "Rejestrowanie danych za pomocą InfluxDB",
+      "uk": "Запис даних за допомогою InfluxDB",
       "zh-cn": "使用InfluxDB记录数据"
     },
     "news": {
+      "4.0.3": {
+        "en": "Some packages were updated",
+        "de": "Einige Pakete wurden aktualisiert",
+        "ru": "Некоторые пакеты были обновлены",
+        "pt": "Alguns pacotes foram atualizados",
+        "nl": "Sommige pakketten werden bijgewerkt",
+        "fr": "Certains paquets ont été mis à jour",
+        "it": "Alcuni pacchetti sono stati aggiornati",
+        "es": "Algunos paquetes se actualizaron",
+        "pl": "Niektóre pakiety zostały zaktualizowane",
+        "uk": "Деякі пакети були оновлено",
+        "zh-cn": "一些软件包已更新"
+      },
+      "4.0.2": {
+        "en": "Corrected JSON config\nCorrected filter function in booleanTypeCheckQuery\nAllowed the self-signed certificates using \"test connection\" button\nThe deletion of data from DB was implemented for V2\nAdded support for `count` aggregate type on getHistory\nminimal supported node.js version is 16 now",
+        "de": "JSON config korrigiert\nKorrigierte Filterfunktion in booleanTypeCheckQuery\nErlaubt die selbstsignierten Zertifikate mit \"Test-Verbindung\" Taste\nDie Löschung von Daten aus DB wurde für V2 implementiert\nUnterstützung für Grafit-Aggregat-Typ auf getHistory\nminimal unterstützt node.js version ist jetzt 16",
+        "ru": "Правильный конфиг JSON\nИсправлена функция фильтра в booleanTypeCheckQuery\nРазрешены самоподписанные сертификаты с помощью кнопки \"test connection\"\nУдаление данных от DB было реализовано для V2\nДобавлена поддержка подсчета агрегатного типа на getHistory\nминимальная поддерживаемая версия node.js 16 сейчас",
+        "pt": "Configuração JSON corrigida\nFunção de filtro corrigida em booleanTypeCheckQuery\nPermitiram os certificados auto-assinados usando o botão \"conexão de teste\"\nA exclusão de dados da DB foi implementada para V2\nAdicionado suporte para contar o tipo agregado em getHistory\nversão node.js suportada mínima é 16 agora",
+        "nl": "Quality over Quantity (QoQ) Releases Vertaling:\nVertaling:\nDe zelf toegewezen certificaten met \"teest verbinding\" knop\nDe deletie van de gegevens van DB werd geïnformeerd voor V2\nVermeldde steun voor het tel aggregate type\nminimaal ondersteunde node",
+        "fr": "Correction de la configuration JSON\nFonction de filtre corrigée dans booleanTypeCheckQuery\nAutorisé les certificats autosignés à l'aide du bouton \"test connection\"\nLa suppression des données du DB a été mise en œuvre pour V2\nAjout du support pour compter le type agrégé sur getHistory\nla version node.js supportée est 16 maintenant",
+        "it": "Corretto JSON config\nFunzione di filtro corretto in booleanTypeCheckQuery\nConsentito i certificati autofirmati utilizzando il pulsante \"Connessione di prova\"\nLa cancellazione dei dati da DB è stata implementata per V2\nAggiunto supporto per conteggio tipo aggregato su getHistory\nversione minima supportato node.js è 16 ora",
+        "es": "Corregido JSON config\nFunción de filtro corregida en booleanTypeCheckQuery\nPermitió los certificados auto-firmados usando el botón \"prueba de conexión\"\nLa eliminación de los datos del DB se llevó a cabo para V2\nSoporte añadido para el tipo de cuenta agregado en getHistory\nversión mínima soportado node.js es 16 ahora",
+        "pl": "Zgoda JSON\nFunkcja filtrów w booleanTypeCheckQuery\nUzyskał on certyfikaty za pomocą przycisku \"test connection\"\nDetekcja danych z DB została zaimplementowana dla V2\nWsparcie dla liczby zbitych typów\nminimalna wersja węzła jest obecnie 16",
+        "uk": "Виправлено налаштування JSON\nВиправлена функція фільтра в booleanTypeCheckQuery\nДозволені сертифікати самопризначені за допомогою кнопки \"test Connection\"\nВидалення даних з DB реалізовано для V2\nДодано підтримку підрахунку агрегатного типу на getHistory\nмінімальний підтриманий вузол.js версія 16 тепер",
+        "zh-cn": "惩教所\n善良Type CheckQuery的过滤功能\n允许使用“试验联系”的自发证书\n第五2行删除数据\n增加对准礼品总值的支持\n最低支持无误的版本现在是16个。"
+      },
+      "4.0.1": {
+        "en": "Corrected JSON config",
+        "de": "JSON config korrigiert",
+        "ru": "Правильный конфиг JSON",
+        "pt": "Configuração JSON corrigida",
+        "nl": "Quality over Quantity (QoQ) Releases Vertaling:",
+        "fr": "Correction de la configuration JSON",
+        "it": "Corretto JSON config",
+        "es": "Corregido JSON config",
+        "pl": "Zgoda JSON",
+        "uk": "Виправлено налаштування JSON",
+        "zh-cn": "惩教所"
+      },
+      "4.0.0": {
+        "en": "Allowed the self-signed certificates using \"test connection\" button\nThe deletion of data from DB was implemented for V2\nAdded support for `count` aggregate type on getHistory\nminimal supported node.js version is 16 now",
+        "de": "Erlaubt die selbstsignierten Zertifikate mit \"Test-Verbindung\" Taste\nDie Löschung von Daten aus DB wurde für V2 implementiert\nUnterstützung für Grafit-Aggregat-Typ auf getHistory\nminimal unterstützt node.js version ist jetzt 16",
+        "ru": "Разрешены самоподписанные сертификаты с помощью кнопки \"test connection\"\nУдаление данных от DB было реализовано для V2\nДобавлена поддержка подсчета агрегатного типа на getHistory\nминимальная поддерживаемая версия node.js 16 сейчас",
+        "pt": "Permitiram os certificados auto-assinados usando o botão \"conexão de teste\"\nA exclusão de dados da DB foi implementada para V2\nAdicionado suporte para contar o tipo agregado em getHistory\nversão node.js suportada mínima é 16 agora",
+        "nl": "De zelf toegewezen certificaten met \"teest verbinding\" knop\nDe deletie van de gegevens van DB werd geïnformeerd voor V2\nVermeldde steun voor het tel aggregate type\nminimaal ondersteunde node",
+        "fr": "Autorisé les certificats autosignés à l'aide du bouton \"test connection\"\nLa suppression des données du DB a été mise en œuvre pour V2\nAjout du support pour compter le type agrégé sur getHistory\nla version node.js supportée est 16 maintenant",
+        "it": "Consentito i certificati autofirmati utilizzando il pulsante \"Connessione di prova\"\nLa cancellazione dei dati da DB è stata implementata per V2\nAggiunto supporto per conteggio tipo aggregato su getHistory\nversione minima supportato node.js è 16 ora",
+        "es": "Permitió los certificados auto-firmados usando el botón \"prueba de conexión\"\nLa eliminación de los datos del DB se llevó a cabo para V2\nSoporte añadido para el tipo de cuenta agregado en getHistory\nversión mínima soportado node.js es 16 ahora",
+        "pl": "Uzyskał on certyfikaty za pomocą przycisku \"test connection\"\nDetekcja danych z DB została zaimplementowana dla V2\nWsparcie dla liczby zbitych typów\nminimalna wersja węzła jest obecnie 16",
+        "uk": "Дозволені сертифікати самопризначені за допомогою кнопки \"test Connection\"\nВидалення даних з DB реалізовано для V2\nДодано підтримку підрахунку агрегатного типу на getHistory\nмінімальний підтриманий вузол.js версія 16 тепер",
+        "zh-cn": "允许使用“试验联系”的自发证书\n第五2行删除数据\n增加对准礼品总值的支持\n最低支持无误的版本现在是16个。"
+      },
       "3.2.0": {
         "en": "Adjust cache file to be different per instance when having multiple instances",
         "de": "Bestimmen Sie die Cache-Datei, um unterschiedlich zu sein pro Instanz, wenn mehrere Instanzen haben",
@@ -63,54 +117,6 @@
         "es": "Permitir eliminar de nuevo un valor de configuración para redondear en configuración",
         "pl": "Allow, aby usunąć wartość konfiguracyjna w zakręcie ponownie w konfigunie",
         "zh-cn": "允许再次取消一轮谈判的组合价值"
-      },
-      "3.1.6": {
-        "en": "When not count is provided for aggregate \"none\" or \"onchange\" then the limit (default 2000) is used as count to define the number of data to return.",
-        "de": "Wenn für die Aggregate keine oder Onchange keine Zählung vorgesehen ist, wird die Grenze (Standard 2000) als Zählung verwendet, um die Anzahl der Daten zu definieren, um zurückzukehren.",
-        "ru": "Когда не считать предоставляется для агрегата ни один или онмен, то предел (по умолчанию 2000) используется как считать, чтобы определить количество данных для возврата.",
-        "pt": "Quando não a contagem é fornecida para agregar nenhum ou onchange, então o limite (padrão 2000) é usado como contagem para definir o número de dados para retornar.",
-        "nl": "Als de tel niet wordt toegewezen voor aggregate noch onchange, dan wordt de limiet 2000 gebruikt om het aantal data te definiëren om terug te keren.",
-        "fr": "Lorsqu'il n'y a pas de comptage pour l'agrégat ou le changement, la limite (par défaut 2000) est utilisée pour définir le nombre de données à retourner.",
-        "it": "Quando il conteggio non viene fornito per aggregato nessuno o cambio, il limite (default 2000) viene utilizzato come conteggio per definire il numero di dati da restituire.",
-        "es": "Cuando no se cuenta se proporciona para agregado ninguno o cambio entonces el límite (por defecto 2000) se utiliza como cuenta para definir el número de datos para regresar.",
-        "pl": "Jeśli nieliczanie jest dostarczane dla agregacji ani zmian, to limit (default 2000) jest używany jako określenie liczby danych do powrotu.",
-        "zh-cn": "当没有计算总额时,或当时的汇率(2000年)用来确定返回的数据数量。."
-      },
-      "3.1.5": {
-        "en": "Make sure debug log is active according to the settings",
-        "de": "Stellen Sie sicher, dass das Debug-Log gemäß den Einstellungen aktiv ist",
-        "ru": "Убедитесь, что журнал debug активен в соответствии с настройками",
-        "pt": "Certifique-se de que o log de depuração está ativo de acordo com as configurações",
-        "nl": "Zorg ervoor dat het logboek actief is volgens de instellingen",
-        "fr": "Assurez-vous que le journal debug est actif selon les paramètres",
-        "it": "Assicurarsi che il registro di debug sia attivo in base alle impostazioni",
-        "es": "Asegúrese de que el registro de depuración está activo según la configuración",
-        "pl": "Umożliwia to, że log debug jest aktywny zgodnie z ustawieniami",
-        "zh-cn": "B. 根据环境,确保有色色逻辑积极。"
-      },
-      "3.1.4": {
-        "en": "Performance optimizations for GetHistory calls, especially for \"minmax\" aggregate method\nPrevent crash case reported by Sentry",
-        "de": "Leistungsoptimierungen für GetHistory-Anrufe, insbesondere für minmax-Aggregatmethode\nVerhindern Crashfall berichtet von Sentry",
-        "ru": "Оптимизация производительности для звонков GetHistory, особенно для метода minmax агрегата\nПредотвратить случай аварии, сообщается в Sentry",
-        "pt": "Otimizações de desempenho para chamadas GetHistory, especialmente para método agregado minmax\nImpedir caso de acidente relatado por Sentry",
-        "nl": "Performance optimisatie voor GetHistory calls, vooral voor minmax aggregate methode\nVertaling:",
-        "fr": "Optimisations de performance pour les appels GetHistory, en particulier pour la méthode globale minmax\nPrévenir l ' accident signalé par Sentry",
-        "it": "Ottimizzazione delle prestazioni per le chiamate GetHistory, in particolare per il metodo aggregato minmax\nPrevenire caso crash segnalato da Sentry",
-        "es": "Optimizaciones de rendimiento para llamadas GetHistory, especialmente para minmax método agregado\nCaso de emergencia reportado por Sentry",
-        "pl": "Optymalizacja wydajności dla wezwań GetHistory, zwłaszcza dla metody Minmax\nPrzygotowania do wypadku Sentry",
-        "zh-cn": "GetHistory呼呼声的表现,特别是总括法\nSentry所报告的预防事故"
-      },
-      "3.1.3": {
-        "en": "Corrected issue when testing connection to InfluxDBv1 with weird passwords",
-        "de": "Problem beim Testen der Verbindung zu InfluxDBv1 mit seltsamen Passwörtern behoben",
-        "ru": "Исправлена ошибка при тестировании подключения к InfluxDBv1 со странными паролями.",
-        "pt": "Corrigido o problema ao testar a conexão com o InfluxDBv1 com senhas estranhas",
-        "nl": "Probleem opgelost bij het testen van de verbinding met InfluxDBv1 met rare wachtwoorden",
-        "fr": "Correction d'un problème lors du test de connexion à InfluxDBv1 avec des mots de passe étranges",
-        "it": "Risolto problema durante il test della connessione a InfluxDBv1 con password strane",
-        "es": "Problema corregido al probar la conexión a InfluxDBv1 con contraseñas extrañas",
-        "pl": "Naprawiono problem podczas testowania połączenia z InfluxDBv1 za pomocą dziwnych haseł",
-        "zh-cn": "更正了使用奇怪密码测试与 InfluxDBv1 的连接时出现的问题"
       }
     },
     "mode": "daemon",
@@ -168,6 +174,10 @@
     "dataSource": "push",
     "tier": 1,
     "eraseOnUpload": true,
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
     "messages": [
       {
         "condition": {
@@ -187,6 +197,7 @@
           "it": "La password deve essere reinserita dopo l'aggiornamento",
           "es": "La contraseña debe volver a ingresarse después de la actualización",
           "pl": "Hasło musi zostać ponownie wprowadzone po aktualizacji",
+          "uk": "Пароль потрібно повторно ввести після оновлення",
           "zh-cn": "升级后需要重新输入密码"
         },
         "text": {
@@ -199,6 +210,7 @@
           "it": "Dopo l'aggiornamento alla versione 2.1.1 o successiva è necessario reinserire la password/token per l'accesso a InfluxDB nella configurazione dell'istanza.",
           "es": "Después de actualizar a la versión 2.1.1 o posterior, debe volver a ingresar su contraseña/token para acceder a InfluxDB en la configuración de la instancia.",
           "pl": "Po aktualizacji do wersji 2.1.1 lub nowszej należy ponownie wprowadzić hasło/token, aby uzyskać dostęp do bazy danych InfluxDB w konfiguracji instancji.",
+          "uk": "Після оновлення до версії 2.1.1 або пізніше вам необхідно повторно ввести свій пароль/токен для доступу до InfluxDB в конфігурації екземпляра.",
           "zh-cn": "升级到 2.1.1 或更高版本后，您需要重新输入密码/令牌才能在实例配置中访问 InfluxDB。"
         },
         "level": "warn",
@@ -225,6 +237,7 @@
           "it": "Avviso IMPORTANTE!",
           "es": "Noticia importante!",
           "pl": "Ważna uwaga!",
+          "uk": "Важливе повідомлення!",
           "zh-cn": "重要通知!"
         },
         "text": {
@@ -237,6 +250,7 @@
           "it": "Questa nuova versione introduce diverse modifiche al modo in cui i valori vengono registrati perché abbiamo risolto diversi problemi e aggiunto nuove funzionalità. Controllare in particolare le impostazioni definite \"debounce\" e \"block time\" nei propri datapoint se i valori non sono registrati come previsto e assicurarsi che le impostazioni abbiano un senso. Per maggiori dettagli, fare riferimento al log delle modifiche e al Leggimi.",
           "es": "Esta nueva versión introduce varios cambios en la forma en que se registran los valores porque solucionamos varios problemas y agregamos nuevas funciones. Verifique especialmente la configuración definida de \"antirrebote\" y \"tiempo de bloqueo\" en sus puntos de datos si los valores no se registran como se esperaba y asegúrese de que la configuración tenga sentido. Para obtener más detalles, consulte el registro de cambios y el archivo Léame.",
           "pl": "Ta nowa wersja wprowadza kilka zmian w sposobie rejestrowania wartości, ponieważ naprawiliśmy kilka problemów i dodaliśmy nowe funkcje. W szczególności sprawdź zdefiniowane ustawienia „odbicia” i „czasu blokowania” w punktach danych, jeśli wartości nie są rejestrowane zgodnie z oczekiwaniami i upewnij się, że ustawienia mają sens. Aby uzyskać więcej informacji, zapoznaj się z dziennikiem zmian i Readme.",
+          "uk": "Ця нова версія вносить кілька змін у реєстрацію значень, оскільки ми виправили кілька проблем і додали нові функції. Будь ласка, особливо перевірте визначені налаштування «затримки» та «часу блокування» в ваших точках даних, якщо значення не реєструються так, як очікувалося, і переконайтеся, що налаштування мають сенс. Для отримання додаткової інформації див. Журнал змін та Readme.",
           "zh-cn": "这个新版本引入了一些更改值的记录方式，因为我们修复了几个问题并添加了新功能。如果未按预期记录值，请特别检查数据点中定义的“去抖动”和“阻塞时间”设置，并确保设置有意义。有关更多详细信息，请参阅更改日志和自述文件。"
         },
         "link": "https://github.com/ioBroker/ioBroker.influxdb/blob/master/README.md#default-settings",
@@ -251,6 +265,7 @@
           "it": "Leggimi",
           "es": "Léame",
           "pl": "Readme",
+          "uk": "Прочитай мене",
           "zh-cn": "自述文件"
         },
         "buttons": [
